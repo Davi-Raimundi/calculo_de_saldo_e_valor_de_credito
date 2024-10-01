@@ -1,0 +1,15 @@
+# Cálculo de Saldo e Valor de Crédito
+
+Este é um programa que calcula o saldo médio e o valor de crédito de um cliente, considerando o tipo de cliente e os saldos de três meses. A aplicação demonstra a interação com o usuário e o uso de condicionais.
+
+## Funcionalidades
+
+- Permite ao usuário inserir seu nome e escolher entre Pessoa Jurídica ou Pessoa Física.
+- Solicita os saldos de junho, julho e agosto.
+- Calcula e exibe o saldo médio e o valor de crédito.
+
+## Como Usar
+
+1. Clone o repositório:
+   bash
+   git clone https://github.com/seu_usuario/seu_repositorio.git
