@@ -1,0 +1,93 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome
+		caracter cliente
+		real saldo
+		real media=0.0
+		real saldo_junho=0.0,saldo_julho=0.0,saldo_agosto=0.0
+		real saldo_pf=0.0
+		real total=0.0
+
+		escreva("\n Digite seu nome: ")
+		leia(nome)
+
+		escreva("\n Escolha (1) pra Pessoa Jurídica")
+		escreva("\n Escolha (2) pra Pessoa Física")
+		
+		escreva("\n Selecione a opção : ")
+		leia(cliente)
+
+		escreva("\n Digite o saldo referente a junho: ")
+		leia(saldo_junho)
+		escreva("\n Digite o saldo referente a julho: ")
+		leia(saldo_julho)
+		escreva("\n Digite o saldo referente a agosto: ")
+		leia(saldo_agosto)
+
+
+		limpa()
+
+		
+
+		escolha(cliente)
+		{
+			caso ('1'):
+
+			total=saldo_junho+saldo_julho+saldo_agosto
+			media=total+total
+			
+			escreva("\n NOME: ",nome)
+			escreva("\n Saldo médio : ",total)
+			escreva("\n Valor de crédito : ",media)
+			pare
+
+			caso ('2'):
+
+			saldo_pf=saldo_junho+saldo_julho+saldo_agosto
+
+			se(saldo_pf>=0.0 e saldo_pf<=2000.00)
+			{
+			total=saldo_pf
+			}
+			se(saldo_pf>=2000.99 e saldo_pf<=4000.00)
+			{
+			total=saldo_pf*0.2
+			
+			}
+			se(saldo_pf>=4000.99 e saldo_pf<=6000)
+			{
+			total=saldo_pf*0.3
+			}
+			se(saldo_pf>6000.99)
+			{
+			total=saldo_pf*0.4
+			}
+			media=total+saldo_pf
+			
+			
+			
+
+			escreva("\n NOME: ",nome)
+			escreva("\n Saldo médio: ",saldo_pf)
+			escreva("\n Valor de crédito: ",media)
+			pare
+		}
+
+		
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+		
+	}
+}
