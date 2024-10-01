@@ -1,0 +1,9 @@
+Cálculo de Saldo e Valor de Crédito
+
+Este projeto consiste em um programa que calcula o saldo médio e o valor de crédito de um cliente com base no tipo (Pessoa Jurídica ou Pessoa Física) e nos saldos informados para os meses de junho, julho e agosto. O programa solicita o nome do cliente, o tipo de cliente e os saldos mensais, e realiza os cálculos apropriados.
+
+Funcionalidades:
+
+O usuário insere seu nome e escolhe entre Pessoa Jurídica ou Pessoa Física.
+O usuário informa os saldos dos meses de junho, julho e agosto.
+O programa calcula o saldo médio e o valor de crédito, exibindo os resultados correspondentes.
